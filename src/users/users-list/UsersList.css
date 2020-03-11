@@ -1,0 +1,41 @@
+.users-list {
+    border: 1px solid gray;
+    margin: 5px;
+    /* box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 83ms;
+    transition-property: box-shadow;
+    transition-duration: 83ms;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+    height: 100%;
+    line-height: 20px;
+    width: 100%;
+    cursor: pointer;
+    border-collapse: collapse;
+    text-align: center;
+    line-height: 24px;
+}
+
+.users-list thead tr {
+    font-weight: bold;
+    border: solid grey 1px;
+}
+
+.users-list tbody tr {
+    /* background-color: lightblue; */
+    border: solid grey 1px;
+    color: grey;
+    margin: 0px;
+}
+
+.users-list tbody td {
+    /* background-color: lightblue; */
+    border: solid grey 1px;
+    margin: 0px;
+}
+
+.users-list tbody tr:hover {
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}

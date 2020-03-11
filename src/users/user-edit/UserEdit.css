@@ -1,0 +1,53 @@
+.user-edit {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: solid grey 1px;
+    height: 600px;
+}
+
+.user-edit-body {
+    padding: 20px;
+    align-self: center;
+}
+
+.user-edit-body-row {
+    height: 30px;
+    display: flex;
+    line-height: 30px;
+    align-items: center;
+}
+
+.gap-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-edit-body-row-gap {
+    height: 318px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.user-edit-header {
+    height: 20px;
+    font-weight: bold;
+    font-size: larger;
+    border-bottom: solid 1px grey;
+    padding: 15px 15px 15px 35px;
+}
+
+.user-edit-footer {
+    height: 20px;
+    font-weight: bold;
+    padding: 5px;
+    align-self: flex-end;
+}
+
+.form-label {
+    min-width: 120px;
+}
+
+.form-input {
+    min-width: 200px;
+}

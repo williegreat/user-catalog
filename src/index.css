@@ -1,0 +1,21 @@
+button {
+    font-size: 15px;
+    background-color: #008cba;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 2px;
+}
+
+input {
+    font-size: 15px;
+}
+
+select {
+    font-size: 15px;
+}
+
+body {
+    font-size: 15px;
+    font-family: sans-serif;
+}
