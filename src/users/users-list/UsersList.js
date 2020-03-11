@@ -25,7 +25,13 @@ const UsersList = ({ users, editUser, setSystemMode }) => {
                                 <td>{user?.id}</td>
                                 <td>{user?.firstName}</td>
                                 <td>{user?.lastName}</td>
-                                <td>{user?.gender}</td>
+                                <td>
+                                    {user?.gender === "f"
+                                        ? "Female"
+                                        : user?.gender === "m"
+                                        ? "Male"
+                                        : ""}
+                                </td>
                             </tr>
                         );
                     })}
