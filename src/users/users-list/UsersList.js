@@ -18,7 +18,7 @@ const UsersList = ({ users, editUser, setSystemMode }) => {
                         return (
                             <tr
                                 key={index}
-                                onClick={() => {
+                                onDoubleClick={() => {
                                     setSystemMode("EDIT", user);
                                 }}
                             >
