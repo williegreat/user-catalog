@@ -18,19 +18,20 @@
 
 .users-list thead tr {
     font-weight: bold;
-    border: solid grey 1px;
+    border: solid rgb(160, 160, 160) 1px;
+    margin: 0px;
 }
 
 .users-list tbody tr {
     /* background-color: lightblue; */
-    border: solid grey 1px;
-    color: grey;
+    border: solid rgb(160, 160, 160) 1px;
+    color: rgb(160, 160, 160);
     margin: 0px;
 }
 
 .users-list tbody td {
     /* background-color: lightblue; */
-    border: solid grey 1px;
+    border: solid rgb(160, 160, 160) 1px;
     margin: 0px;
 }
 
