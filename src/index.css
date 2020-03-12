@@ -1,6 +1,6 @@
 button {
     font-size: 15px;
-    background-color: #008cba;
+    background-color: rgb(103, 153, 206);
     color: white;
     padding-right: 15px;
     padding-left: 15px;
@@ -9,10 +9,12 @@ button {
 
 input {
     font-size: 15px;
+    color: rgb(120, 120, 120);
 }
 
 select {
     font-size: 15px;
+    color: rgb(120, 120, 120);
 }
 
 body {
